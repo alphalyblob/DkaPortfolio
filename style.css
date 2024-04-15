@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #081317;
+    color: #CFE5EE;
+    font-family: "Saira", sans-serif;
+
+}
+
+header {
+    margin: 1rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        /* border: 1px solid #63787F; */
+        font-size: larger;
+        margin-right: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        color: inherit;
+        transition: opacity 0.3s ease;
+    }
+
+    a:hover {
+        opacity: 0.5;
+    }
+}
+
+
+.profil {
+
+    border: 1px solid #63787F;
+    margin: 1rem;
+
+    h1 {
+        background-color: #182A30;
+        text-align: center;
+        width: fit-content;
+        padding: 1rem;
+        margin: 1.5rem;
+    }
+
+    h3 {
+        width: fit-content;
+        margin: 1.5rem;
+    }
+
+    .profildesc {
+        width: fit-content;
+        padding: 1.5rem;
+
+        span {
+            display: inline-block;
+            width: 100%;
+            text-align: justify;
+        }
+
+        .reseaux{
+            border-top: 1px solid #63787F;
+            padding-top: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            width: 100%;
+            text-align: justify;
+
+            a{
+                margin-right: 1rem;
+                text-decoration: none;
+                color: inherit;
+                transition: opacity 0.3s ease;
+                img{
+                    height: 30px;
+                    width: auto;
+
+                }
+            }
+
+            a:hover{
+                opacity: 0.5;
+            }
+        }
+
+    }
+
+
+
+
+
+}
+
+.projets {
+    border: 1px solid #63787F;
+    margin: 1rem;
+
+    h1 {
+        background-color: #182A30;
+        text-align: center;
+        width: fit-content;
+        padding: 1rem;
+        margin: 1.5rem;
+    }
+
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem;
+        overflow-x: scroll;
+        padding-bottom: 1rem;
+
+
+        .procard {
+            border: 2px solid #63787F;
+            height: 300px;
+            min-width: 400px;
+            margin: 1rem;
+            background-color: #1A363F;
+            overflow: hidden;
+            transition: transform 0.2s;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .prodesc {
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    transition: opacity 0.3s ease;
+                }
+
+                a:hover {
+                    opacity: 0.5;
+                }
+
+
+                h3 {
+                    margin: 0.3rem;
+                }
+
+                span {
+                    margin: 0.3rem;
+                }
+            }
+        }
+
+        .procard:hover {
+            transform: scale(1.1);
+        }
+
+
+    }
+}
+
+.parcours {
+    border: 1px solid #63787F;
+    margin: 1rem;
+
+    h1 {
+        background-color: #182A30;
+        text-align: center;
+        width: fit-content;
+        padding: 1rem;
+        margin: 1.5rem;
+    }
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem;
+        overflow-x: scroll;
+        
+
+        .parcard{
+            border: 2px solid #63787F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 200px;
+            min-width: 400px;
+            margin: 1rem;
+            background-color: #1A363F;
+            overflow: hidden;
+            
+
+            
+
+            .pardesc {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 1rem;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 3px solid #63787F;
+                }
+
+                h3 {
+                    margin: 0.3rem;
+                }
+
+                span {
+                    margin: 0.3rem;
+                }
+            }
+
+        }
+    }
+
+}
